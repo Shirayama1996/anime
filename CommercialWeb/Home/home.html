@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="home.css">
+</head>
+<body>
+	<header>
+		<div id="headlayout">
+			<div id="headlayout-logo">
+				<div><img src="Images/Logo.PNG" alt="" height="40px"></div>
+				<div><input type="text" placeholder="Tìm kiếm Anime..."><img src="Images/spotlight.png" alt=""></div>
+				<div>THÀNH VIÊN</div>
+			</div>
+			<div>
+				<nav>
+					<div><a href="">HOME</a></div>
+					<div><a href="">ANIME MÙA</a></div>
+					<div><a href="">THỂ LOẠI</a></div>
+					<div><a href="">NHÓM DỊCH</a></div>
+					<div><a href="">LOẠI PHIM</a></div>
+					<div><a href="">LỌC PHIM</a></div>
+					<div><a href="">BẢNG XẾP HẠNG</a></div>
+					<div><a href="">LỊCH CHIẾU PHIM</a></div>
+					<div><a href="">RANDOM</a></div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section>
+			<div>
+				<img src="Images/top-banner1.gif" alt="">
+				<img src="Images/top-banner2.gif" alt="">
+			</div>
+		</section>
+		<section id="slide-show">
+			<div>
+				<div class="slides"><img src="Images/one-piece.jpg" alt=""></div>
+				<div class="slides"><img src="Images/overlord.jpg" alt=""></div>
+				<div class="slides"><img src="Images/titan.jpg" alt=""></div>
+			</div>
+			<img src="Images/left-arrow.png" class="prev" onclick="moveSlide(-1)">
+			<img src="Images/right-arrow.png" class="next" onclick="moveSlide(1)">
+		</section>
+		<section>
+			<div>
+				<p>Tao là Cường Colin, một mình tao chấp hết.</p>
+			</div>
+		</section>
+		<section>
+			<div>
+				<div id="broadcast-soon">
+					<img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <span>Phim Sắp Chiếu</span>
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+			    </div>
+			    <button>Xem Thêm</button>
+				<div class="broadcast-soon-content">
+					<div class="series">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/2.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/3.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/4.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/5.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/6.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/7.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/8.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/9.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/10.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/11.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="series">
+						<div><img src="Images/12.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+				</div>
+			</div>
+			<img src="Images/left-arrow.png" class="prev-series" onclick="moveSeries(-1)">
+			<img src="Images/right-arrow.png" class="next-series" onclick="moveSeries(1)">
+		</section>
+		<section>
+			<div id="anime-list">
+				<div>
+					<img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <span>Anime</span>
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				</div>
+				<div>
+					lịch sử xem phim
+				</div>
+			</div>
+			<div class="list">
+				<div id="anime-list-content">
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/1.jpg" alt=""></div>
+						<hr>
+						<div>NOUMIN KANREN NO SKILL BAKKA AGETETARA NAZEKA TSUYOKU NATTA.</div>
+					</div>
+				</div>
+				<div id="rank">
+					<div><button>Xem tất cả</button></div>
+					<div>bảng xếp hạng</div>
+					<div>
+						<div>Ngày</div>
+						<div>Tuần</div>
+						<div>Tháng</div>
+						<div>Mùa</div>
+						<div>Năm</div>
+					</div>
+					<div>
+						<ul>
+							<li><div><span>1</span></div><img src="Images/top 1.jpg" alt=""><div><div>One Piece</div><div>1031/??? Tập</div>
+							<div>Lượt xem: 7,517</div></div></li>
+							<li><div><span>1</span></div><img src="Images/top 1.jpg" alt=""><div><div>One Piece</div><div>1031/??? Tập</div>
+							<div>Lượt xem: 7,517</div></div></li>
+							<li><div><span>1</span></div><img src="Images/top 1.jpg" alt=""><div><div>One Piece</div><div>1031/??? Tập</div>
+							<div>Lượt xem: 7,517</div></div></li>
+							<li><div><span>1</span></div><img src="Images/top 1.jpg" alt=""><div><div>One Piece</div><div>1031/??? Tập</div>
+							<div>Lượt xem: 7,517</div></div></li>
+							<li><div><span>1</span></div><img src="Images/top 1.jpg" alt=""><div><div>One Piece</div><div>1031/??? Tập</div>
+							<div>Lượt xem: 7,517</div></div></li>
+							<li><div><span>1</span></div><img src="Images/top 1.jpg" alt=""><div><div>One Piece</div><div>1031/??? Tập</div>
+							<div>Lượt xem: 7,517</div></div></li>
+							<li><div><span>1</span></div><img src="Images/top 1.jpg" alt=""><div><div>One Piece</div><div>1031/??? Tập</div>
+							<div>Lượt xem: 7,517</div></div></li>
+							<li><div><span>1</span></div><img src="Images/top 1.jpg" alt=""><div><div>One Piece</div><div>1031/??? Tập</div>
+							<div>Lượt xem: 7,517</div></div></li>
+							<li><div><span>1</span></div><img src="Images/top 1.jpg" alt=""><div><div>One Piece</div><div>1031/??? Tập</div>
+							<div>Lượt xem: 7,517</div></div></li>
+							<li><div><span>1</span></div><img src="Images/top 1.jpg" alt=""><div><div>One Piece</div><div>1031/??? Tập</div>
+							<div>Lượt xem: 7,517</div></div></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="three-dimension-list">
+				<div>
+					<img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <span>Hoạt hình 3D</span>
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				    <img src="Images/star.png" alt="">
+				</div>
+				<div>
+					bình luận mới
+				</div>
+			</div>
+			<div class="list">
+				<div id="anime-list-content">
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+					<div class="anime-content">
+						<div><img src="Images/trutien.jpg" alt=""></div>
+						<hr>
+						<div>Tru Tiên</div>
+					</div>
+				</div>
+				<div id="comment">
+					<div>
+						<div><span>One Piece</span><span>Tập 369</span></div>
+						<div><div><img src="Images/doremon.jpg" alt=""></div><div><p>Shirayama</p><p>It's awesome. I like it very much. It's out of this world. I will recommend it to my friends.</p></div></div>
+						<hr>
+					</div>
+					<div>
+						<div><span>One Piece</span><span>Tập 369</span></div>
+						<div><div><img src="Images/doremon.jpg" alt=""></div><div><p>Shirayama</p><p>It's awesome. I like it very much. It's out of this world. I will recommend it to my friends.</p></div></div>
+						<hr>
+					</div>
+					<div>
+						<div><span>One Piece</span><span>Tập 369</span></div>
+						<div><div><img src="Images/doremon.jpg" alt=""></div><div><p>Shirayama</p><p>It's awesome. I like it very much. It's out of this world. I will recommend it to my friends.</p></div></div>
+						<hr>
+					</div>
+					<div>
+						<div><span>One Piece</span><span>Tập 369</span></div>
+						<div><div><img src="Images/doremon.jpg" alt=""></div><div><p>Shirayama</p><p>It's awesome. I like it very much. It's out of this world. I will recommend it to my friends.</p></div></div>
+						<hr>
+					</div>
+					<div>
+						<div><span>One Piece</span><span>Tập 369</span></div>
+						<div><div><img src="Images/doremon.jpg" alt=""></div><div><p>Shirayama</p><p>It's awesome. I like it very much. It's out of this world. I will recommend it to my friends.</p></div></div>
+						<hr>
+					</div>
+					<div>
+						<div><span>One Piece</span><span>Tập 369</span></div>
+						<div><div><img src="Images/doremon.jpg" alt=""></div><div><p>Shirayama</p><p>It's awesome. I like it very much. It's out of this world. I will recommend it to my friends.</p></div></div>
+						<hr>
+					</div>
+					<div>
+						<div><span>One Piece</span><span>Tập 369</span></div>
+						<div><div><img src="Images/doremon.jpg" alt=""></div><div><p>Shirayama</p><p>It's awesome. I like it very much. It's out of this world. I will recommend it to my friends.</p></div></div>
+						<hr>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+
+	</footer>
+	<script src="home.js"></script>
+</body>
+</html>
